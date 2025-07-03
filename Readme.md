@@ -108,3 +108,22 @@ allure serve artifacts/allure
 2. Reporte Allure: Carpeta artifacts/allure/
 3. Screenshots: En artifacts/screenshots/ cuando fallan pruebas
 4. Logs de ejecución: En artifacts/logs/test_execution.log
+
+
+🤝 Contribución
+
+1. Haz fork del proyecto
+
+2. Crea una rama (git checkout -b feature/nueva-funcionalidad)
+
+3. Haz commit de tus cambios (git commit -m 'Add some feature')
+
+4. Haz push a la rama (git push origin feature/nueva-funcionalidad)
+
+5. Abre un Pull Request
+
+📧 Contacto
+
+[Carlos Daniel Jiménez Cálcena] - [carlos.danielj1291@gmail.com]
+[LinkedIn/https://www.linkedin.com/in/carlos-daniel-jim%C3%A9nez-c%C3%A1lcena-07a77a180/TuPerfil]
+[GitHub/CarlosDaniel661]
