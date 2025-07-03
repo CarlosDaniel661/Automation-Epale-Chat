@@ -1,0 +1,17 @@
+*.pyc
+__pycache__/
+*.log
+*.tmp
+
+# Entornos virtuales
+venv/
+.env
+
+# Reportes y artefactos locales
+reports/
+allure-report/
+artifacts/screenshots/*.png   # Excluir screenshots (pueden regenerarse)
+artifacts/videos/*.mp4        # Excluir videos grandes
+
+# Drivers
+chromedriver.exe
