@@ -9,5 +9,5 @@ class Config:
     HEADLESS = False  # Cambiar a True para ejecución en CI/CD
     
     # Credenciales de prueba
-    USERNAME = "test_user"
-    PASSWORD = "test123"
+    USERNAME = "cdjc_test_epale@gmail.com"
+    PASSWORD = "Test+123"
