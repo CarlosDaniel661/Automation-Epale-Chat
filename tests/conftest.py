@@ -4,6 +4,8 @@ from pathlib import Path
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.service import Service
+
 import allure
 import os
 import base64
@@ -30,10 +32,9 @@ def browser(request):
         options.add_argument("--window-size=1920,1080")
 
     # Inicialización con webdriver-manager
-    driver = webdriver.Chrome(
-        ChromeDriverManager().install(),
-        options=options
-    )
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=options)
+
     
     # Configura tiempoouts implícitos
     driver.implicitly_wait(Config.TIMEOUT)

@@ -1,0 +1,1 @@
+[1m[31mERROR   [0m pages.base_page:base_page.py:37 Element not visible: ('id', 'message-input')
